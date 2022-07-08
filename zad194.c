@@ -10,7 +10,7 @@ int main()
     printf("Unesi neku recenicu : ");
     gets(str);
 
-// Zapocinjemo obrnut slova.
+// Zapocinjemo obrnut rijeci.
         while(str[i]!='\0')
                 i++;
         while(i>0)
@@ -21,7 +21,7 @@ int main()
 
         }
         tekst[j]='\0';
-// Zavrsavamo s obrtanjem slova.
+// Zavrsavamo s obrtanjem rijeci.
         printf("\nObrnuta recenica: ");
 
     for(i=0;tekst[i]!='\0';i++)
